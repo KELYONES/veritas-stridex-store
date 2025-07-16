@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Buy trendy sneakers online. StrideX offers affordable, stylish shoes for everyday comfort." />
+  <meta name="keywords" content="sneakers, affordable shoes, buy sneakers Kenya, stylish footwear" />
+  <meta name="author" content="Veritas KE" />
+  <title>StrideX Sneakers | Affordable Style</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">StrideX</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#" id="to-products">Shop</a>
+      <a href="#">Contact</a>
+    </nav>
+   <div class="cart">
+  <button id="view-cart">🛒 View Cart (<span id="cart-count">0</span>)</button>
+</div>
+
+  </header>
+<section class="hero">
+    <h1>Step into Style with StrideX</h1>
+    <p>Affordable sneakers for everyday comfort, designed for you.</p>
+    <a href="#" class="cta-btn">Shop Now</a>
+  </section>
+
+  <section class="features">
+    <h2>Why Choose StrideX?</h2>
+    <ul>
+      <li>Lightweight & breathable designs</li>
+      <li>Affordable pricing</li>
+      <li>Delivered anywhere in Kenya</li>
+    </ul>
+  </section>
+
+  <section class="products" id="products">
+    <h2>Our Top Sneakers</h2>
+
+    <input type="text" id="search" placeholder="Search for sneakers...">
+
+    <div class="product-grid">
+
+      <div class="product-card" data-name="urban sprint white lightweight">
+        <img src="https://images.unsplash.com/photo-1579338559194-a162d19bf842?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNuZWFrZXJzfGVufDB8fDB8fHww" alt="White running sneakers Kenya">
+        <h3>Urban Sprint</h3>
+        <p>Lightweight white sneakers built for everyday movement.</p>
+        <p class="price">Ksh 1230</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-name="street flex black streetwear">
+        <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNuZWFrZXJzfGVufDB8fDB8fHww" alt="Black streetwear sneakers Nairobi">
+        <h3>Street Flex</h3>
+        <p>Black streetwear sneaker with premium grip and style.</p>
+        <p class="price">Ksh 1050</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-name="blaze runner colorful sports">
+        <img src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNuZWFrZXJzfGVufDB8fDB8fHww" alt="Colorful sports sneakers in Kenya">
+        <h3>Blaze Runner</h3>
+        <p>Color pop sneakers designed for comfort and bold looks.</p>
+        <p class="price">Ksh 1200</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-name="air motion grey breathable">
+  <img src="https://images.unsplash.com/photo-1697058338661-39a1fe4a64fe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R3JleSUyMGJyZWF0aGFibGUlMjBzbmVha2Vyc3xlbnwwfHwwfHx8MA%3D%3D" alt="Grey breathable sneakers Kenya">
+  <h3>Air Motion</h3>
+  <p>Grey athletic sneakers perfect for casual wear and workouts.</p>
+  <p class="price">Ksh 1350</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+
+<div class="product-card" data-name="desert trek brown leather">
+  <img src="https://images.unsplash.com/photo-1653868250398-8efc756b601d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8QnJvd24lMjBmYXV4JTIwbGVhdGhlciUyMHNuZWFrZXIlMjB3aXRoJTIwZXhjZWxsZW50JTIwb3V0ZG9vciUyMGR1cmFiaWxpdHl8ZW58MHx8MHx8fDA%3D" alt="Brown leather sneakers in Kenya">
+  <h3>Desert Trek</h3>
+  <p>Brown faux leather sneaker with excellent outdoor durability.</p>
+  <p class="price">Ksh 1650</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+
+<div class="product-card" data-name="neon racer lime sporty">
+  <img src="https://images.unsplash.com/photo-1696889645027-9b8e5efc1914?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Qm9sZCUyMG5lb24lMjBncmVlbiUyMGtpY2tzJTIwd2l0aCUyMHVubWF0Y2hlZCUyMGJvdW5jZSUyMGFuZCUyMGdyaXAlMjBzbmVha2Vyc3xlbnwwfHwwfHx8MA%3D%3D" alt="Neon sporty sneakers Nairobi">
+  <h3>Neon Racer</h3>
+  <p>Bold neon green kicks with unmatched bounce and grip.</p>
+  <p class="price">Ksh 1490</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+
+
+    </div>
+  </section>
+
+  <section class="seo-boost">
+    <h2>Top Search: Affordable Sneakers in Kenya</h2>
+    <p>StrideX is optimized to appear when customers search for "cheap sneakers Kenya", "affordable running shoes", or "best sneaker deals near me".</p>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> StrideX. Powered by Veritas KE.</p>
+  </footer>
+<div class="modal" id="checkout-modal">
+  <div class="modal-overlay" id="modal-overlay"></div>
+  <div class="modal-box">
+    <span class="close-btn" id="close-modal">&times;</span>
+    <h2>Your Order</h2>
+    <ul id="cart-items"></ul>
+    <p id="empty-cart-msg" style="display:none; color: #999; text-align: center; font-style: italic;">
+     🛒 Your cart is empty.
+    </p>
+    <p><strong>Total:</strong> Ksh <span id="checkout-total">0</span></p>
+    <button id="confirm-order">Confirm Order</button>
+  </div>
+</div>
+
+</body>
+</html>
+
